@@ -9,7 +9,11 @@ public class Catalogo
 		String movie = "Top Gun: Maverick";
 		boolean included = true;
 		
-		System.out.printf("O ano de lançamento do filme '%s' foi %d.%n", movie, lanchYear);
-		System.out.printf("Incluído no plano Screen Match? %b", included);
+		System.out.printf
+		("""
+			O ano de lançamento do filme '%s' foi %d.
+			Incluído no plano Screen Match? %b
+		 """, movie, lanchYear, included
+		 );
 	}
 }
