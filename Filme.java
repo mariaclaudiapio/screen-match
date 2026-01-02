@@ -4,9 +4,15 @@ public class Filme
     String nome;
     int anoDeLancamento;
     boolean incluidoNoPlano;
-    double somaDasAvaliacoes;
-    int totalDeAvaliacoes;
+    private double somaDasAvaliacoes;
+    private int totalDeAvaliacoes;
     int duracaoEmMinutos;
+
+    // métodos acessores
+    int getTotalDeAvaliacoes()
+    {
+        return totalDeAvaliacoes;
+    }
 
     // Criação de métodos
     void exibeFichaTecnica()
