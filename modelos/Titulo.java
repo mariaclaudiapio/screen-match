@@ -1,4 +1,4 @@
-package br.com.alura.screematch.modelos;
+package modelos;
 
 public class Titulo
 {
@@ -13,6 +13,11 @@ public class Titulo
     public int getTotalDeAvaliacoes()
     {
         return totalDeAvaliacoes;
+    }
+
+    public int getDuracaoEmMinutos()
+    {
+        return duracaoEmMinutos;
     }
 
     public void setNome(String nome)
